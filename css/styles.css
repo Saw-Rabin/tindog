@@ -1,0 +1,148 @@
+#title{
+    background-color:#1ececb;
+    color: white;
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    
+}
+
+.container-fluid{
+
+    padding: 3% 15%;
+    
+}
+
+body{
+    font-family: Montserrat;
+    text-align: center;
+}
+
+h2{
+    font-family: Montserrat;
+    font-weight: 700;
+    color: white;
+    font-size: 3rem;
+}
+/*Navigation bar*/
+
+.nav-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+  
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{    
+    padding-right: 18px;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+
+.title-image{
+    width: 59%;
+   background-color:#1ececb ;
+   position: absolute;
+   
+
+}
+
+#features{
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+    background-color: white;
+   
+
+}
+.features-box{
+    padding: 5%;
+}
+
+.icon{
+    color: #1ececb;
+    padding-bottom: 5%;
+    
+
+}
+
+/*testimonial*/
+#testimonials{
+
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+    background-color:#1ececb;
+
+
+}
+
+.dog{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+/*press*/
+
+#press{
+    background-color:#1ececb;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+#pricing{
+
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+
+}
+
+#price-text{
+    color: black;
+}
+
+.card-text{
+    color: black;
+}
+
+/*-- Call to Action */
+
+#cta{
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+
+    background-color:  #1ececb;
+
+}
+
+#footer{
+    padding: 5% 10% 5% 10%;
+}
+.foot{
+
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+@media(max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
